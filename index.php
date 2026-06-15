@@ -23,20 +23,16 @@ function caesarCipher($text, $shift)
         }
     }
 
-    
-
     return $result;
 }
 
-$pesan = "Informatika Keceredasan Buatan";
-$key = 3;
+$pesan = "Sistem Informasi Modern";
+$key = 2;
 
 $hasil = caesarCipher($pesan, $key);
-$dekripsi = $pesan;
 
 echo "Pesan Asli : " . $pesan . "<br>";
 echo "Key : " . $key . "<br>";
 echo "Ciphertext : " . $hasil . "<br>";
-echo "Hasil Dekripsi : " . $dekripsi;
 
 ?>
